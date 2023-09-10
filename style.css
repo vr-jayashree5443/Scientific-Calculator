@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    width: 300px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.display-screen {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+    margin-top: 10px; 
+}
+
+.button1 button, .button2 button, .button3 button, .button4 button, .button5 button, .button6 button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px; 
+    margin: 2px; 
+}
+.button1 button, .button2 button, .button3 button, .button4 button, .button5 button, .button6 button {
+    width: 50px; 
+    height: 50px; 
+    font-size: 18px; 
+    margin: 2px; 
+    background-color: #858184; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+}
+
+
+.button1 button:hover, .button2 button:hover, .button3 button:hover, .button4 button:hover, .button5 button:hover, .button6 button:hover {
+    background-color: #97aebd; 
+}
+
